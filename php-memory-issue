@@ -1,5 +1,5 @@
-#php memory issue when running static-content deploy
+#php memory issue when running static-content deploy in Magento2
 
 php bin/magento setup:static-content:deploy -f
 
-php -d memory_limit=-1 bin/magento setup:static-content:deploy -f
+php -d memory_limit=-1 bin/magento setup:static-content:deploy -f 
